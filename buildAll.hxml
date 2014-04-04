@@ -1,0 +1,19 @@
+### SWHX Flash
+-cp src
+-lib swhx
+-main ftb.app.fbuilder.FBuilder
+-swf-header 600:300:24:5A86A7
+-swf-version 10
+-swf bin/FBuilder.swf
+
+--next
+
+### SWHX Neko
+-cp src
+-lib systools
+-lib swhx
+-lib hscript
+-D neko_v1
+--macro haxe.macro.Compiler.keep( [ "StringTools", "Sys", "sys.FileSystem", "sys.io.File" ] )
+-main ftb.app.fbuilder.App
+-neko bin/app.n
