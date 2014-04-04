@@ -80,7 +80,7 @@ Yu must specify a project file as argument so the program must be called from co
 
 ### Windows installation
 
-Launch **install-file-extension.reg** to register **.fbxml** as **FBuilder project file**. So you'll be able to **open** and **build** your **.fbxml** project from Windows' explorer.
+Edit **install-file-extension.reg** and modify the location of the binary. Then Launch the **.reg** to register **.fbxml** as **FBuilder project file**. So you'll be able to **open** and **build** your **.fbxml** project from Windows' explorer.
 
 ## Building from sources
 
