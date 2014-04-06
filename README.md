@@ -84,4 +84,8 @@ Edit **install-file-extension.reg** and modify the location of the binary. Then 
 
 ## Building from sources
 
-You'll need to modify a bit the SWHX, Systools and hscript libs to make it compiling right for Haxe 3.
+You'll need these modified libs in order to build from sources Haxe 3 compatibles :
+
+ * [SWHX](https://github.com/filt3rek/swhx)
+ * [Systools](https://github.com/filt3rek/systools)
+ * [hscript](https://github.com/filt3rek/hscript)
